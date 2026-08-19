@@ -252,6 +252,12 @@ h3:hover{
     border: none;
 }
 
+.desc button:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.767);
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
 .artist-photos2{
     display: flex;
     gap: 20px;
