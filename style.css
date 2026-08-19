@@ -10,6 +10,12 @@
     --fina-quadrada:"Space Grotesk", sans-serif;
     --media:"Geologica", sans-serif;
     --grossa:"Allerta Stencil", sans-serif;
+
+    --darkblue: #04050D;
+    --darkgreen: #070D04;
+    --brown:#0D0604;
+    --limegreen: #7C8C72;
+
 }
 
 body {
@@ -20,23 +26,39 @@ body {
 }
 
 header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    filter: saturate(0);
     width: 100vw;
     height: 100vh;
-    background-color: lightcoral;
+    background-image: url(img/pexels-cottonbro-5320021.jpg);
+    background-position: center top;
+    background-size: cover;
 }
+header h2{
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 6em;
+    font-family: var(--media);
+    text-transform: uppercase;
+
+}
+
+
 
 .titulo{
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 100px;
-    background-color: black;
+    background-color: transparent;
     color: white;
 }
 
 .titulo ul{
     width: 700px;
-   
+   color:rgba(255, 255, 255, 0.685);
     display: flex;
     align-items: center;
     justify-content: end;
@@ -47,7 +69,7 @@ header{
 }
 
 .icons{
-  
+    color: rgba(255, 255, 255, 0.685);
     width: 300px;
     height: 100%;
     display: flex;
@@ -57,10 +79,22 @@ header{
 }
 
 .titulo h1{
-   
+    color: white;
     width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 3em;
 }
+
+header button{
+    width: 200px;
+    height: 90px;
+    font-size: 2em;
+    font-family: var(--fina);
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.877);
+    border: 3px solid rgba(255, 255, 255, 0.685);
+    margin-bottom: 70px;
+}
+
