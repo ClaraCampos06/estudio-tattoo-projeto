@@ -20,7 +20,7 @@
 
 body {
     height: 100%;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
     background-color: lightblue;
 }
@@ -79,6 +79,11 @@ header h2:hover{
 .titulo li:hover{
     cursor: pointer;
     color: white;
+}
+.titulo a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.685);
+    
 }
 
 .titulo i:hover{
