@@ -66,7 +66,7 @@ header h2:hover{
 
 .titulo ul{
     width: 700px;
-   color:rgba(255, 255, 255, 0.685);
+    color:rgba(255, 255, 255, 0.685);
     display: flex;
     align-items: center;
     justify-content: end;
@@ -76,7 +76,7 @@ header h2:hover{
     font-size: 1.3em;
 }
 
-.titulo li:hover{
+.titulo a:hover{
     cursor: pointer;
     color: white;
 }
