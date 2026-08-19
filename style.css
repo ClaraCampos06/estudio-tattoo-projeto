@@ -20,8 +20,8 @@
 
 body {
     height: 100%;
-    width: 100%;
-    overflow-x: auto;
+    width: 100vw;
+    overflow-x: hidden;
     background-color: lightblue;
 }
 
@@ -30,10 +30,10 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    filter: saturate(0);
+    filter: saturate(.6);
     width: 100vw;
     height: 100vh;
-    background-image: url(img/pexels-cottonbro-5320021.jpg);
+    background-image: url(img/modelo.jpg);
     background-position: center top;
     background-size: cover;
 }
@@ -42,7 +42,15 @@ header h2{
     font-size: 6em;
     font-family: var(--media);
     text-transform: uppercase;
+    transition: .5s;
 
+}
+
+header h2:hover{
+    cursor: pointer;
+    transition: .5s;
+    letter-spacing: 10%;
+    font-size: 6.2em;
 }
 
 
@@ -68,6 +76,15 @@ header h2{
     font-size: 1.3em;
 }
 
+.titulo li:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.titulo i:hover{
+    cursor: pointer;
+    color: white;
+}
 .icons{
     color: rgba(255, 255, 255, 0.685);
     width: 300px;
@@ -97,4 +114,250 @@ header button{
     border: 3px solid rgba(255, 255, 255, 0.685);
     margin-bottom: 70px;
 }
+
+header button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.747);
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.artists{
+    filter: saturate(.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/artist.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center ;
+    background-size: cover;
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 6em;
+    color: white;
+    transition: .5s;
+}
+
+h3:hover{
+    transition: .5s;
+    letter-spacing: 10%;
+}
+    
+.artist-photos1{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 100vh;
+    padding-bottom:0;
+    background-image: url(img/fundo.jpg);
+    background-position: top;
+    background-size: cover;
+    filter: saturate(.6);
+}
+
+.artista{
+    width: 25%;
+    height: 80%;
+    box-shadow: 0px 0px 20px black;
+    transition: .5s;
+}
+
+.artista1{
+    background-image: url(img/art1.jpg);
+     background-position: center;
+    background-size: cover;
+}
+
+
+
+.artista2{
+    background-image: url(img/art2.jpg);
+     background-position: center ;
+    background-size: cover;
+}
+
+.artista3{
+    background-image: url(img/art3.jpg);
+     background-position: center;
+    background-size: cover;
+}
+
+.artista4{
+    background-image: url(img/art4.jpg);
+     background-position: center ;
+    background-size: cover;
+}
+
+.artista:hover{
+    height: 100%;
+    transition: .5s;
+}
+
+.artista1:hover{
+    height: 100%;
+    transition: .5s;
+}
+
+
+.artist-info1{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 0;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: saturate(.6);
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: start;
+    justify-content: space-evenly;
+    width:25%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.desc h4{
+    font-size: 2.5em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.desc p{
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.822);
+    text-transform: uppercase;
+}
+
+.desc button{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.4em;
+    border: none;
+}
+
+.artist-photos2{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 100vh;
+    padding-bottom:0;
+    background-image: url(img/fundo2.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: saturate(.6);
+}
+
+.artista5{
+    background-image: url(img/art5.jpg);
+     background-position: top;
+    background-size: cover;
+}
+
+.artista6{
+    background-image: url(img/art6.jpg);
+     background-position: center ;
+    background-size: cover;
+}
+
+.artista7{
+    background-image: url(img/art7.jpg);
+     background-position: center;
+    background-size: cover;
+}
+
+.artista8{
+    background-image: url(img/art8.jpg);
+     background-position: center ;
+    background-size: cover;
+}
+
+.artist-info2{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 0;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/fundo2.jpg);
+    background-position: bottom;
+    background-size: cover;
+    filter: saturate(.6);
+}
+
+.studio{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    filter: saturate(.6);
+    width: 100%;
+    height: 150vh;
+    background-image: url(img/space1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.studio h3{
+    margin-bottom: 360px;
+}
+
+.studio-info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    filter: saturate(.6);
+    background-image: url(img/modelo2.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+.studio-info h4{
+    color: white;
+    font-size: 5em;
+}
+
+.studio-info p{
+    width: 40%;
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 2.3em;
+}
+
+.informacoes-do-studio{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 250px;
+}
+
+.informacoes-do-studio p{
+    
+    text-align: start;
+    width: 33%;
+}
+
 
