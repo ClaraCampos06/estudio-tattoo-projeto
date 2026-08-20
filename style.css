@@ -148,7 +148,7 @@ h3{
 
 h3:hover{
     transition: .5s;
-    letter-spacing: 10%;
+    letter-spacing: 5%;
 }
     
 .artist-photos1{
@@ -336,7 +336,7 @@ h3:hover{
 .studio-info{
     padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     height: 100vh;
     filter: saturate(.6);
@@ -346,11 +346,14 @@ h3:hover{
 }
 
 .studio-info h4{
+    text-transform: uppercase;
     color: white;
     font-size: 5em;
+
 }
 
 .studio-info p{
+
     width: 40%;
     margin-top: 50px;
     color: rgba(255, 255, 255, 0.822);
@@ -358,17 +361,29 @@ h3:hover{
 }
 
 .informacoes-do-studio{
-    text-transform: uppercase;
     display: flex;
-    justify-content: space-between;
-    align-items: end;
-    margin-top: 250px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    flex-direction: column;
+    width: 900px;
+    height: 700px;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+
 }
 
 .informacoes-do-studio p{
-    
+    font-size: 1.8em;
+    display: flex;
+    align-items: center;
     text-align: start;
-    width: 33%;
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.informacoes-do-studio i{
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.795);
 }
 
 

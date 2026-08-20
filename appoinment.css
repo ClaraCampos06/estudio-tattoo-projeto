@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--media);
+}
+
+:root{
+    --fina: "Quicksand", sans-serif;
+    --fina-quadrada:"Space Grotesk", sans-serif;
+    --media:"Geologica", sans-serif;
+    --grossa:"Allerta Stencil", sans-serif;
+
+    --darkblue: #04050D;
+    --darkgreen: #070D04;
+    --brown:#0D0604;
+    --limegreen: #7C8C72;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/appoinment.jpg);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: saturate(.6) blur(2px);
+    
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 60%;
+    height: 70%;
+    backdrop-filter: blur(10px);
+
+}
+
+.form input{
+    height: 70px;
+    width: 600px;
+    background-color: transparent;
+    border: 3px solid white;
+    font-size: 1.2em;
+    padding: 5px;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input[type="date"] {
+    color-scheme: dark;
+    cursor: pointer;
+}
+
+#file{
+    border: none;
+    width: 400px;
+    height: 40px;
+}
+
+.form p{
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+#submit{
+    text-transform: uppercase;
+    font-size: 1.3em;
+    width: 200px;
+
+}
+
+
+#submit:hover{
+    background-color: rgba(255, 255, 255, 0.651);
+    color: rgba(0, 0, 0, 0.788);
+    cursor: pointer;
+}
