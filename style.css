@@ -123,7 +123,12 @@ header button{
 header button:hover{
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.747);
-    color: rgba(0, 0, 0, 0.63);
+    color: black;
+}
+
+#visit{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.747);
 }
 
 .artists{
