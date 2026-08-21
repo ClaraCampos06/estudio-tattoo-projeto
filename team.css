@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--media);
+}
+
+:root{
+    --fina: "Quicksand", sans-serif;
+    --fina-quadrada:"Space Grotesk", sans-serif;
+    --media:"Geologica", sans-serif;
+    --grossa:"Allerta Stencil", sans-serif;
+
+    --darkblue: #04050D;
+    --darkgreen: #070D04;
+    --brown:#0D0604;
+    --limegreen: #7C8C72;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800vh;
+}
+.box{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+p{
+    color: rgba(255, 255, 255, 0.76);
+}
+
+.foto-artur{
+    width: 50%;
+    height: 100%;
+    background-image: url(team/artur.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .6s;
+}
+
+.foto-artur:hover{
+    width: 60%;
+    background-position: center;
+    transition: .6s;
+}
+
+.info-artur{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+    height: 100%;
+    background-image: url(team/tattoo-artur);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.info{
+    backdrop-filter: brightness(.6) blur(2px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.bruno{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.foto-bruno{
+    width: 50%;
+    height: 100%;
+    background-image: url(team/bruno.jpg);
+    background-size: cover;
+    background-position: center right;
+    transition: .6s;
+}
+
+.info-bruno{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+    height: 100%;
+    background-image: url(team/tattoo-bruno.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foto-bruno:hover{
+    width: 60%;
+    background-position: center right;
+    transition: .6s;
+}
+
+.foto-camila{
+    width: 50%;
+    height: 100%;
+    background-image: url(team/camila.jpg);
+    background-size: cover;
+    background-position: center right;
+    transition: .6s;
+}
+.info-camila{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+    height: 100%;
+    background-image: url(team/tattoo-camila.jfif);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foto-camila:hover{
+    width: 60%;
+    background-position: center right;
+    transition: .6s;
+}
+
+.foto-dara{
+    width: 50%;
+    height: 100%;
+    background-image: url(team/dara.jpg);
+    background-size: cover;
+    background-position: center top;
+    transition: .6s;
+}
+
+.dara{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.info-dara{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+    height: 100%;
+    background-image: url(team/tattoo-dara.jfif);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foto-dara:hover{
+    width: 60%;
+    background-position: center top;
+    transition: .6s;
+}
+
+
+.foto-elena{
+    width: 50%;
+    height: 100%;
+    background-image: url(team/elena.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .6s;
+}
+
+.info-elena{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+    height: 100%;
+    background-image: url(team/tattoo-elena.jfif);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foto-elena:hover{
+    width: 60%;
+    background-position: center;
+    transition: .6s;
+}
+
+
+.foto-luna{
+    width: 50%;
+    height: 100%;
+    background-image: url(team/luna.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    transition: .6s;
+}
+
+.info-luna{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+    height: 100%;
+    background-image: url(team/tattoo-luna.jfif);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foto-luna:hover{
+    width: 60%;
+    background-position: center bottom;
+    transition: .6s;
+}
+
+.luna{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.foto-maya{
+    width: 50%;
+    height: 100%;
+    background-image: url(team/maya.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: .6s;
+}
+
+.info-maya{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+    height: 100%;
+    background-image: url(team/tattoo-maya.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foto-maya:hover{
+    width: 60%;
+    background-position: center;
+    transition: .6s;
+}
+
+.natalia{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.foto-natalia{
+    width: 50%;
+    height: 100%;
+    background-image: url(team/natalia.jpg);
+    background-size: cover;
+    background-position: center top;
+    transition: .6s;
+}
+
+.info-natalia{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 50%;
+    height: 100%;
+    background-image: url(team/tattoo-natalia.jfif);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foto-natalia:hover{
+    width: 60%;
+    background-position: center top;
+    transition: .6s;
+}
+
+
+
+
+
