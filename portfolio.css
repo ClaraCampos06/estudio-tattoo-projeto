@@ -43,9 +43,19 @@ section{
     display: flex;
     align-items: end;
     justify-content: start;
-    width: 25%;
+    width: 100%;
     height: 80%;
     transition: .6s;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    transition: .6s;
+    text-decoration: none;
 }
 
 .box:hover{
